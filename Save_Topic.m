@@ -1,0 +1,2 @@
+% ROS CONNECTION ESTABLISH
+rosinit
