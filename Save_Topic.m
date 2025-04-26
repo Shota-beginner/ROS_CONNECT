@@ -15,7 +15,6 @@ logAngularZ = [];
 disp('Logging /cmd_vel. Press Ctrl+C or close the figure to stop.');
 
 % 可視化用 Figure（省略可能）
-% animatedline：
 figure;
 h1 = animatedline('Color', 'b'); % linear.x
 h2 = animatedline('Color', 'r'); % angular.z
