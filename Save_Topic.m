@@ -1,5 +1,6 @@
 % ROS CONNECTION ESTABLISH
 % option : rosinit('http://<ROS_MASTER_IP>:11311');
+% test
 
 rosinit
 

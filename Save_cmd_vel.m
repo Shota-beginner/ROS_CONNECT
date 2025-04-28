@@ -6,7 +6,6 @@ clear
 % ROSネットワーク接続
 rosinit("http://192.168.43.9:11311");
 
-
 %% 必要なトピックのサブスクライバを作成
 sub_cmd_vel = rossubscriber('/cmd_vel');
 sub_tf = rossubscriber('/tf');
@@ -83,6 +82,7 @@ while true
     log_tf{end+1} = msg_tf;
 
     % 適宜可視化や保存処理を入れてもOK
+    
 end
 
 %% クォータニオン→ヨー角変換
